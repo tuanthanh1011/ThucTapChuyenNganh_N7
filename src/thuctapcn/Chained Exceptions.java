@@ -1,4 +1,6 @@
-class ChainExcDemo {
+import package java_tongquan;
+
+public class ChainExcDemo {
      static void demoproc() {
          // create an exception
          NullPointerException e = new NullPointerException("top layer");
