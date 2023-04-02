@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bai1_javatongquan;
+package javatongquan;
 import java.util.Scanner;
 /**
  *
@@ -11,14 +11,53 @@ import java.util.Scanner;
  */
 public class Bai3_TinhGiaiThua {
     public static void main(String[] args) {
-        int n;
-        Scanner sn = new Scanner(System.in);
-        int factorial = 1;
-        System.out.print("Nhap vao mot so tu nhien n: ");
-        n = sn.nextInt();
-        for(int i = 1; i <= n; i++) {
-            factorial *= i;
+        implements Relatable {
+        public int width = 0;
+        public int height = 0;
+        public Point origin;
+
+        // four constructors
+        public RectanglePlus() {
+            origin = new Point(0, 0);
         }
-        System.out.println("Giai thua cua " + n + " la: " + factorial);
+        public RectanglePlus(Point p) {
+            origin = p;
+        }
+        public RectanglePlus(int w, int h) {
+            origin = new Point(0, 0);
+            width = w;
+            height = h;
+        }
+        public RectanglePlus(Point p, int w, int h) {
+            origin = p;
+            width = w;
+            height = h;
+        }
+
+        // a method for moving the rectangle
+        public void move(int x, int y) {
+            origin.x = x;
+            origin.y = y;
+        }
+
+        // a method for computing
+        // the area of the rectangle
+        public int getArea() {
+            return width * height;
+        }
+
+        // a method required to implement
+        // the Relatable interface
+        public int isLargerThan(Relatable other) {
+            RectanglePlus otherRect 
+                = (RectanglePlus)other;
+            if (this.getArea() < otherRect.getArea())
+                return -1;
+            else if (this.getArea() > otherRect.getArea())
+                return 1;
+            else
+                return 0;               
+        }
     }
 }
+
