@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author tuant
  */
-public class Bai3_TinhGiaiThua {
+public class Bai3 {
     public static void main(String[] args) {
         implements Relatable {
         public int width = 0;
