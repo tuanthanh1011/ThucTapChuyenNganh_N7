@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author tuant
  */
-public class Bai2_GiaiPTBac2 {
+public class Bai2 {
    public class Main {
   public static void main(String[] args) {
     try {
