@@ -1,4 +1,4 @@
-package javatongquan;
+package thuctapcn.Tuan3;
 
 public class Calculation {
    int z;

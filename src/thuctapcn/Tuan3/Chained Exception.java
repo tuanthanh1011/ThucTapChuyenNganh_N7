@@ -1,3 +1,5 @@
+package thuctapcn.Tuan3;
+
 import package java_tongquan;
 
 public class ChainExcDemo {
