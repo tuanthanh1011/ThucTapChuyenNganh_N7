@@ -15,6 +15,7 @@ public class Nguoi {
     private char gioiTinh;
 
     public Nguoi() {
+        
     }
 
     public Nguoi(String ten, int tuoi, char gioiTinh) {
@@ -48,6 +49,6 @@ public class Nguoi {
     }
     
     public String toString () {
-        return "Tên: " + ten + ", Tuổi: " + tuoi + ", Giới tính: " + gioiTinh;
+        return "Tên: " + ten + "; Tuổi: " + tuoi + "; Giới tính: " + gioiTinh;
     }
 }
