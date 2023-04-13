@@ -14,7 +14,7 @@ public class KhachHangDemo {
     
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap so luong khach hang: ");
+        System.out.print("Nhap so luong KH:  ");
         int n = Integer.parseInt(sc.nextLine());
 
         KhachHang[] dsKH = new KhachHang[n];

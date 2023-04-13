@@ -25,7 +25,7 @@ public class HinhChuNhat extends HinhPhang{
          return chieuDai*chieuRong;
      }
      public String toString(){
-         return super.toString()+": chieu dai = "+chieuDai+", "
+         return super.toString()+": Chieu dai = "+chieuDai+", "
                  + "chieu rong = "+chieuRong+", chu vi = "+tinhCV()+", "
                  + "dien tich = "+ tinhDT();
      }
