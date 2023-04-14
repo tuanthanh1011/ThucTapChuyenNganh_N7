@@ -14,7 +14,7 @@ public class Nguoi {
     private int tuoi;
     private char gioiTinh;
 
-    public Nguoi() {
+    public Nguoi(){
         
     }
 
