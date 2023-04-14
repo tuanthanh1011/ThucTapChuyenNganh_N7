@@ -36,7 +36,7 @@ public class maybay extends PhuongTienDiChuyen{
         System.out.println("Cat canh ...");
     }
     public void catcanh(){
-        System.out.println("hacanh....");
+        System.out.println("hacanh..ff..");
     }
 
     
