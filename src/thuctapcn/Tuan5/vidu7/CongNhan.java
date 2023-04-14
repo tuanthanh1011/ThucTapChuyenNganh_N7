@@ -4,6 +4,8 @@
  */
 package thuctapcn.Tuan5.vidu7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lethi
@@ -46,7 +48,4 @@ public abstract class CongNhan {
         System.out.printf("%-20s %-30s %-20s %-15.2f%n", hoten, diachi, loaicongnhan, tinhLuong());
     }
 
-    void nhapThongTin() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
