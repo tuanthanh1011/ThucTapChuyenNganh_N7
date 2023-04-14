@@ -41,13 +41,11 @@ public class De1_GiangVien {
         if (check == 1) {
             nhapSL();
             newdsgv = new GVCoHuu[3 + n];
-            nhap();
+            nhapDL();
             System.out.println("Danh sách vừa nhập: ");
             inTieuDe();
             inDL(newdsgv);
-
-            System.out.println("---------------------------------------");
-
+            System.out.println("Danh sách sau khi sắp xếp: ");
             sortGV(newdsgv);
             inTieuDe();
             inDL(newdsgv);
@@ -76,7 +74,7 @@ public class De1_GiangVien {
         } while (n < 1);
     }
 
-    public static void nhap() {
+    public static void nhapDL() {
         for (int i = 0; i < 3; i++) {
             newdsgv[i] = dsgv[i];
         }
