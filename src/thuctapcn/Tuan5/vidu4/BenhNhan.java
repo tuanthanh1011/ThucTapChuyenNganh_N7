@@ -53,7 +53,7 @@ public class BenhNhan extends Nguoi implements Comparable<BenhNhan>{
         return super.toString() + String.format("%-25s %-30s", tienSu, chanDoan);
     }
     @Override
-    public int compareTo(BenhNhan o){ //SAP XEP GIAM DAN
+    public int compareTo(BenhNhan o){ //HAM SAP XEP GIAM DAN
         int result;
         if(this.getTuoi() < o.getTuoi())
             result = 1;
