@@ -37,13 +37,12 @@ public class De3_BenhNhan {
         System.out.println("Danh sach sau khi bo sung: ");
         inTieuDe();
         inDL(newdsbn);
-        //System.out.println("Danh sach sau khi sap xep tang dan: ");
-        
-        //inTieuDe();
-        //sapXeptangdan(newdsbn);
-        System.out.println("Danh sach sau khi sap xep giam dan: ");
+        System.out.println("Danh sach sau khi sap xep tang dan: ");
         inTieuDe();
-        sapXepgiamdan(newdsbn);
+        sapXeptangdan(newdsbn);
+        //System.out.println("Danh sach sau khi sap xep giam dan: ");
+        //inTieuDe();
+        //sapXepgiamdan(newdsbn);
         //System.out.println("Benh nhan co tuoi nho nhat: ");
         //timMin(newdsbn);
     }
@@ -82,15 +81,15 @@ public class De3_BenhNhan {
             newdsbn[i] = bn;
         }
     }
-    /*public static void sapXeptangdan(BenhNhan[] arr){
-        Collections.sort(Arrays.asList(arr));
-        inDL(arr);
-    }*/
-    public static void sapXepgiamdan(BenhNhan[] arr){
-        Comparator<BenhNhan> reverseOrder = Collections.reverseOrder();
+    public static void sapXeptangdan(BenhNhan[] arr){
         Collections.sort(Arrays.asList(arr));
         inDL(arr);
     }
+    /*public static void sapXepgiamdan(BenhNhan[] arr){
+        Comparator<BenhNhan> reverseOrder = Collections.reverseOrder();
+        Collections.sort(Arrays.asList(arr));
+        inDL(arr);
+    }*/
     /*public static void timMin(BenhNhan[] arr){
         
        BenhNhan minAge = Collections.min(Arrays.asList(arr));
