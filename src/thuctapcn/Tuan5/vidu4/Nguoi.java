@@ -66,9 +66,11 @@ public class Nguoi {
         do{
             gioiTinh = sc.next().charAt(0);
             sc.nextLine();
+            
             if(!(gioiTinh == 'N') && !(gioiTinh == 'F')){
                System.out.print("Nhập lại giới tính: ");
             }
+            
         }while(!(gioiTinh == 'N') && !(gioiTinh == 'F'));
     }
 }
