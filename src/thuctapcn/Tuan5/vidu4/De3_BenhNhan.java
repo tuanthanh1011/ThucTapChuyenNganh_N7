@@ -28,7 +28,7 @@ public class De3_BenhNhan {
         
         dsbn = new BenhNhan[3];
         fakeData();
-        System.out.println("Danh sách vừa nhập là: ");
+        System.out.println("Danh sách vừa nhậppp: ");
         inTieuDe();
         inDL(dsbn);
         nhapSL();

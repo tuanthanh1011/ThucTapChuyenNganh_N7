@@ -54,7 +54,7 @@ public class Nguoi {
     }
     public void nhapThongTin(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập tên: ");
+        System.out.print("Nhập tên là: ");
         ten = sc.nextLine();
         if(ten.equals("")){
             System.exit(0);

@@ -27,7 +27,7 @@ public class De1_GiangVien {
         Scanner sc = new Scanner(System.in);
         dsgv = new GVCoHuu[3];
         fakeData();
-        System.out.println("Danh sách vừa nhập là: ");
+        System.out.println("Danh sách vừa nhập làa: ");
         inTieuDe();
         inDL(dsgv);
 

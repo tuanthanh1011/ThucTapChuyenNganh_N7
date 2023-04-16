@@ -34,7 +34,7 @@ public class GVCoHuu extends GiangVien implements Comparable<GVCoHuu>{
         luongCoBan = sc.nextDouble();
         System.out.print("Nhập hệ số lương: ");
         heSoLuong = sc.nextDouble();
-        System.out.print("Nhập số năm công tác: ");
+        System.out.print("Nhập số năm công tác là: ");
         namCongTac = sc.nextInt();
         if (namCongTac < 0) {
             System.exit(0);
