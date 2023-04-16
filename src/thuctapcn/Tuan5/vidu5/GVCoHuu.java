@@ -30,7 +30,7 @@ public class GVCoHuu extends GiangVien implements Comparable<GVCoHuu>{
     public void nhapThongTin(){
         super.nhapThongTin();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập lương cơ bản: ");
+        System.out.print("Nhập lương cơ Bản: ");
         luongCoBan = sc.nextDouble();
         System.out.print("Nhập hệ số lương: ");
         heSoLuong = sc.nextDouble();

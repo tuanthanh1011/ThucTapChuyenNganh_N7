@@ -44,7 +44,7 @@ public class BenhNhan extends Nguoi implements Comparable<BenhNhan>{
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập tiền sử: ");
         tienSu = sc.nextLine();
-        System.out.print("Nhập chẩn đoán: ");
+        System.out.print("Nhập chẩn đoán bệnh: ");
         chanDoan = sc.nextLine();
     }
 

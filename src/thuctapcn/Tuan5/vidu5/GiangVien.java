@@ -19,7 +19,7 @@ public abstract class GiangVien {
         hoTen = sc.nextLine();
         System.out.print("NHập vào địa chỉ: ");
         diaChi = sc.nextLine();
-        System.out.print("Nhập vào loại giảng viên: ");
+        System.out.print("Nhập loại giảng viên: ");
         loaiGiangVien = sc.nextLine();
     }
     public GiangVien(){
