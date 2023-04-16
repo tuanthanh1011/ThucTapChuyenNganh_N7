@@ -13,9 +13,9 @@ import java.util.Scanner;
 public class Demo {
     private static ArrayList<NguoiLaoDong> FakeData(){
         ArrayList<NguoiLaoDong> dsNguoiLaoDong = new ArrayList();
-        KySu KS1 = new KySu ("e","ha Noi "," ky su",10000,6,3);
-        KySu KS2 = new KySu ("e","ha Noi "," ky su",10000,6,3);
-        KySu KS3 = new KySu ("e","ha Noi "," ky su",10000,6,3);
+        KySu KS1 = new KySu ("e","Ha Noi "," ky su",10000,6,3);
+        KySu KS2 = new KySu ("e","Ha Noi "," ky su",10000,6,3);
+        KySu KS3 = new KySu ("e","Ha Noi "," ky su",10000,6,3);
         dsNguoiLaoDong.add(KS3);
         dsNguoiLaoDong.add(KS2);
         dsNguoiLaoDong.add(KS1);

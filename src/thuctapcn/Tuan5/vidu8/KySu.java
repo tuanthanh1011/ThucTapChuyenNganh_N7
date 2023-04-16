@@ -41,7 +41,7 @@ public class KySu extends NguoiLaoDong {
         luongCB =sc.nextFloat();
         System.out.println("Nhap he so luong : ");
         heSoLuong = sc.nextInt();
-        System.out.println("Nhap ngay cong  : ");
+        System.out.println("Nhap so ngay cong  : ");
         ngayCong =sc.nextFloat();
         
         

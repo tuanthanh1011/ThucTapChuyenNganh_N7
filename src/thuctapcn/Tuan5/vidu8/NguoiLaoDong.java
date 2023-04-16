@@ -57,7 +57,7 @@ public abstract class NguoiLaoDong {
         hoTen = sc.nextLine();
         System.out.println("Nhap Dia Chi : ");
         hoTen = sc.nextLine();
-        System.out.println("Nhap Loai lao Động : ");
+        System.out.println("Nhap loai lao động : ");
         hoTen = sc.nextLine();
         
     }
