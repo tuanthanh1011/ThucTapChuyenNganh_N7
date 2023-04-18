@@ -6,13 +6,10 @@
 package thuctapcn.Tuan6.vidu2;
 
 import java.util.Scanner;
-import java.util.Collections;
-import java.util.Arrays;
+//import java.util.Collections;
+//import java.util.Arrays;
 
-/**
- *
- * @author tuant
- */
+
 public abstract class GiangVien {
 
     private String hoten;

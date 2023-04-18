@@ -12,7 +12,7 @@ import java.util.Comparator;
 
 /**
  *
- * @author tuant
+ * 
  */
 public class Demo {
 

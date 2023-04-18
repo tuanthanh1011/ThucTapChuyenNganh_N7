@@ -7,10 +7,6 @@ package thuctapcn.Tuan6.vidu2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author tuant
- */
 public class GVCoHuu extends GiangVien implements Comparable<GVCoHuu>{
 
     private double luongcoban;
