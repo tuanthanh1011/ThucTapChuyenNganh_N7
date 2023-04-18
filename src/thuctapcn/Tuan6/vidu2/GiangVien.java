@@ -46,7 +46,7 @@ public abstract class GiangVien {
         
         System.out.print("Nhập địa chỉ: ");
         diachi = sc.nextLine();
-        System.out.print("Nhập loại giảng viên(Giảng viên cơ hữu và Giảng viên thỉnh giảng): ");
+        System.out.print("Nhập loại giảng viên(Giảng viên cơ hữu và Giảng viên thỉnh giảngg): ");
         loaigiangvien = sc.nextLine();
     }
 

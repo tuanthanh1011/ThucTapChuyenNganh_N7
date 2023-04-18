@@ -30,7 +30,7 @@ public class Demo {
         Scanner sc = new Scanner(System.in);
 
         fakeData();
-        System.out.println("\n-----------Thong tin vua nhap----------------");
+        System.out.println("\n-----------Thong tin vua nhap---------------");
         inTieuDe();
         inThongTin(dsgv);
         minLuong(dsgv);

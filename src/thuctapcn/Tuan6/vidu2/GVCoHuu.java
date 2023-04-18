@@ -70,7 +70,7 @@ public class GVCoHuu extends GiangVien implements Comparable<GVCoHuu>{
         luongcoban = sc.nextDouble();
         System.out.print("Nhập hệ số lương: ");
         hesoluong = sc.nextDouble();
-        System.out.print("Nhập số năm công tác: ");
+        System.out.print("Nhập số năm công tácc: ");
         sonamcongtac = sc.nextInt();
     }
 
